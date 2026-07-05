@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Saint Parcel - премиальный выкуп и доставка товаров с Poizon из Китая в Москву."
+    />
+    <title>Saint Parcel - заказ с Poizon</title>
+    <link rel="icon" href="assets/saint-parcel-logo-clean-small.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-row">
+        <a class="brand" href="#top" aria-label="Saint Parcel">
+          <img
+            src="assets/saint-parcel-logo-clean-small.png"
+            width="82"
+            height="82"
+            alt="Логотип Saint Parcel"
+          />
+          <span>
+            <strong>Saint Parcel</strong>
+            <small>Poizon orders from China</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="nav-shell" aria-label="Навигация по странице">
+        <div class="nav-links">
+          <a href="#rates">Актуальный курс валют</a>
+          <a href="#tariffs">Тарифы доставки</a>
+          <a href="#about">О нас</a>
+          <a href="#faq">FAQ</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="assets/tracking.xlsx" download="tracking.xlsx" data-download-tracking>
+            Отслеживание посылки
+          </a>
+          <a class="nav-cta" href="https://t.me/tkm999ceo" target="_blank" rel="noopener">
+            Связаться с нами
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-reveal">
+        <div class="hero-layer"></div>
+        <div class="hero-inner">
+          <p class="section-kicker"><span></span> Saint Parcel</p>
+          <h1>
+            Заказ с Poizon
+            <em>без лишнего шума</em>
+          </h1>
+          <p class="hero-lead">
+            Выкуп, проверка, доставка и выдача в Москве. Чёткий расчёт до оплаты,
+            живой менеджер в Telegram и понятные маршруты из Китая.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="https://t.me/tkm999ceo" target="_blank" rel="noopener">
+              Рассчитать стоимость
+            </a>
+            <a class="button ghost" href="#tariffs">Смотреть тарифы</a>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="rates" class="split-section section-reveal">
+        <div class="section-title">
+          <p class="section-kicker"><span></span> Курс валют</p>
+          <h2>
+            Прозрачный расчёт
+            <em>до выкупа</em>
+          </h2>
+        </div>
+        <div class="rate-panel hover-lift">
+          <div class="rate-main">
+            <span>Актуально сейчас</span>
+            <strong>1 ¥ = 11.9 ₽</strong>
+            <p>
+              Предварительная стоимость заказа считается по курсу, комиссии за
+              выкуп и выбранному тарифу доставки.
+            </p>
+          </div>
+          <div class="rate-rules">
+            <div>
+              <span>До 500 ¥</span>
+              <strong>500 ₽</strong>
+              <p>фиксированная комиссия</p>
+            </div>
+            <div>
+              <span>От 500 ¥</span>
+              <strong>15%</strong>
+              <p>от стоимости товара</p>
+            </div>
+          </div>
+          <a class="button primary" href="https://t.me/tkm999ceo" target="_blank" rel="noopener">
+            Рассчитать заказ
+          </a>
+        </div>
+      </section>
+
+      <section id="tariffs" class="content-section section-reveal">
+        <div class="section-title wide">
+          <p class="section-kicker"><span></span> Тарифы доставки</p>
+          <h2>
+            Выберите скорость,
+            <em>которая подходит заказу</em>
+          </h2>
+          <p>
+            Сроки указаны от склада в Китае до офиса Saint Parcel в Москве.
+            Финальный маршрут менеджер уточняет по ближайшему рейсу и весу посылки.
+          </p>
+        </div>
+
+        <div class="tariff-grid">
+          <article class="tariff-card hover-lift">
+            <span>Эксклюзив</span>
+            <h3>Saint Express</h3>
+            <p>Самый быстрый вариант для срочных заказов и релизов.</p>
+            <div class="tariff-meta">
+              <strong>1-4 дня</strong>
+              <strong>2500 ₽/кг</strong>
+            </div>
+          </article>
+          <article class="tariff-card featured hover-lift">
+            <span>Баланс</span>
+            <h3>Standard</h3>
+            <p>Регулярный маршрут с хорошим соотношением скорости и цены.</p>
+            <div class="tariff-meta">
+              <strong>6-14 дней</strong>
+              <strong>2200 ₽/кг</strong>
+            </div>
+          </article>
+          <article class="tariff-card hover-lift">
+            <span>Выгода</span>
+            <h3>Economy</h3>
+            <p>Рациональный вариант для заказов без жёсткого дедлайна.</p>
+            <div class="tariff-meta">
+              <strong>15-25 дней</strong>
+              <strong>800 ₽/кг</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="tracking" class="tracking-section section-reveal">
+        <div>
+          <p class="section-kicker"><span></span> Tracking</p>
+          <h2>Отслеживание вашей посылки</h2>
+          <p>
+            Скачайте Excel-таблицу со статусами. Файл отдается как загрузка для
+            пользователя, который открыл сайт.
+          </p>
+        </div>
+        <a class="button dark" href="assets/tracking.xlsx" download="tracking.xlsx" data-download-tracking>
+          Скачать tracking.xlsx
+        </a>
+      </section>
+
+      <section id="about" class="about-section section-reveal">
+        <div class="about-copy">
+          <p class="section-kicker"><span></span> О нас</p>
+          <h2>
+            Москва, своя логистика
+            <em>и контроль на каждом этапе</em>
+          </h2>
+          <p>
+            Saint Parcel больше года помогает клиентам заказывать оригинальные
+            товары с Poizon и других китайских площадок. Мы принимаем заказ,
+            проверяем детали, выкупаем товар, сопровождаем доставку и выдаём
+            посылки в московском офисе.
+          </p>
+          <p>
+            Наш Telegram-канал - место для новостей, условий, обновлений по
+            доставке и важных объявлений для клиентов.
+          </p>
+          <div class="address-line">
+            <span>Адрес</span>
+            <strong>Бизнес-центр Румянцево, сектор 2А, этаж 3</strong>
+          </div>
+          <a class="button primary" href="https://t.me/SaintParcel999" target="_blank" rel="noopener">
+            Наш канал
+          </a>
+        </div>
+
+        <div class="media-stack">
+          <figure class="media-card hover-lift">
+            <img
+              src="assets/warehouse-optimized.jpg"
+              width="757"
+              height="760"
+              loading="lazy"
+              alt="Склад Saint Parcel с посылками"
+            />
+            <figcaption>Склад и зона обработки отправлений</figcaption>
+          </figure>
+          <figure class="media-card hover-lift">
+            <img
+              src="assets/map-optimized.jpg"
+              width="1300"
+              height="676"
+              loading="lazy"
+              alt="Карта расположения офиса Saint Parcel в Румянцево"
+            />
+            <figcaption>Офис рядом с БЦ Румянцево</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="faq" class="content-section section-reveal">
+        <div class="section-title wide">
+          <p class="section-kicker"><span></span> FAQ</p>
+          <h2>Вопросы, которые задают чаще всего</h2>
+        </div>
+        <div class="faq-list">
+          <details class="hover-lift" open>
+            <summary>Как сделать заказ?</summary>
+            <p>
+              Отправьте менеджеру ссылку или скрин товара, размер, цвет и желаемый
+              способ доставки. Мы посчитаем итоговую стоимость и подскажем сроки.
+            </p>
+          </details>
+          <details class="hover-lift">
+            <summary>Когда оплачивается доставка?</summary>
+            <p>
+              Сначала оплачивается выкуп, а доставка рассчитывается после поступления
+              товара на склад и уточнения фактического веса.
+            </p>
+          </details>
+          <details class="hover-lift">
+            <summary>Можно объединить несколько товаров?</summary>
+            <p>
+              Да. Несколько позиций можно собрать в одну отправку, если это выгодно
+              по срокам и стоимости.
+            </p>
+          </details>
+          <details class="hover-lift">
+            <summary>Где получить заказ в Москве?</summary>
+            <p>
+              Выдача проходит в офисе Saint Parcel: БЦ Румянцево, сектор 2А, этаж 3.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="reviews" class="content-section section-reveal">
+        <div class="section-title wide">
+          <p class="section-kicker"><span></span> Отзывы</p>
+          <h2>
+            Спокойный сервис
+            <em>без сюрпризов по цене</em>
+          </h2>
+        </div>
+        <div class="review-grid">
+          <article class="review-card hover-lift">
+            <p>
+              "Заказывал кроссовки с Poizon. Менеджер быстро всё посчитал,
+              предупредил по срокам, забрал без сюрпризов."
+            </p>
+            <strong>Артём</strong>
+          </article>
+          <article class="review-card hover-lift">
+            <p>
+              "Понравилось, что заранее объяснили комиссию и доставку. Статусы
+              присылали регулярно, посылка дошла аккуратно."
+            </p>
+            <strong>Мария</strong>
+          </article>
+          <article class="review-card hover-lift">
+            <p>
+              "Брал несколько вещей одной отправкой. Помогли выбрать тариф,
+              получилось быстрее, чем ожидал."
+            </p>
+            <strong>Даниил</strong>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <img src="assets/saint-parcel-logo-clean-small.png" width="48" height="48" alt="" />
+        <strong>Saint Parcel</strong>
+      </div>
+      <address>
+        <a href="mailto:saintparcel@gmail.com">saintparcel@gmail.com</a>
+        <a href="tel:+79782836565">+7 978 283 65 65</a>
+      </address>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
